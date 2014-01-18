@@ -1,0 +1,123 @@
+/* Global CSS */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+body {
+  margin: 0;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+/* Header */
+#header {
+  background: #878787;
+  height: 50px;
+  width: 100%;
+}
+#header p {
+  left: 50%;
+  margin-left: -250px;
+  position: absolute;
+  text-shadow: none;
+  color : #ffffff;
+}
+#header p b {
+  color : #4CA5D0;
+}
+/* Whole Resume */
+div div h3 a {
+  font-family: 'Nanum Gothic',sans-serif;
+}
+h3 {
+  font-family: 'Nanum Gothic',sans-serif !important;
+}
+
+/* Profile */
+#profileLeft{
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 500px;
+  margin-bottom : 20px;
+}
+#profileLeft h2 {
+  position:absolute;
+  top:160px;
+  left:290px;
+}
+#profileLeft h4 {
+  position:absolute;
+  top:200px;
+  left:290px;
+}
+#profileRight{
+  position: absolute;
+  right: 80px;
+  top: 110px;
+}
+/* Resume */
+#resumeLeft{
+  margin-left: 40px;
+}
+#resumeLeft h2 {
+  background: none repeat scroll 0 0 #4CA5D0;
+  color: #FFFFFF;
+  width: 70%;
+}
+#career{
+
+}
+#companyName{
+
+}
+#position{
+
+}
+#workPeriod{
+  left: 500px;
+  position: relative;
+  top: -78px;
+  width: 200px;
+}
+#workRole{
+  position: relative;
+  top: -30px;
+}
+#resumeRight{
+  position: absolute;
+  right: 80px;
+  top: 156px;
+}
+#resumeRight h2 {
+  background: none repeat scroll 0 0 #4CA5D0;
+  color: #FFFFFF;
+  width: 110%;
+}
+#programming{
+
+}
+#language{
+
+}
+/* Portfolio */
+#portfolioLeft{
+  margin-left: 40px;
+  margin-top: 20px;
+  width: 500px;
+}
+#portfolioImg{
+  width:500px;
+}
+#portfolioRight{
+  position: absolute;
+  right: 80px;
+  top: 215px;
+  width: 500px;
+}
+/* contact */
+#contactInfo{
+  background: none repeat scroll 0 0 #FFFFFF;
+  padding: 10px;
+  position: absolute;
+  right: 130px;
+  top: 320px;
+  width: 300px;
+}
+#contactInfo h3{
+  color: #4CA5D0;
+}
